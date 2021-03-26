@@ -1,0 +1,21 @@
+{
+    "name": "Tic Tac Toe",
+    "short_name": "Game of Minds",
+    "start_url": ".",
+    "background_color": "lightseagreen",
+    "theme_color": "black",
+    "display": "standalone",
+    "icons": [{
+            "src": "logo1.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "logo2.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

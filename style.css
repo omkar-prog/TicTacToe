@@ -1,0 +1,73 @@
+.board {
+    background-color: rgb(114, 172, 169);
+    border: 1px solid black;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(52, 60, 68);
+    color: white;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+@media screen and (max-width: 736px) {
+    .app {
+        flex-direction: column;
+    }
+}
+
+.square {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    transition: all 100ms linear;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: lightgrey;
+}
+
+.square:active {
+    background-color: lightslategrey;
+}
+
+input {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.btn {
+    outline: none;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    width: 100%;
+    cursor: pointer;
+    transition: all 100ms linear;
+}
+
+.btn:hover {
+    background-color: rgb(70, 72, 172);
+    color: white;
+}
+
+.btn:active {
+    background-color: blueviolet;
+    color: white;
+}
